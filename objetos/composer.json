@@ -1,0 +1,14 @@
+{
+    "name": "alejandro/objetos",
+    "type": "project",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+      "psr-4": {"Objetos\\Util\\": "src/util/"}
+    },
+    "scripts": {
+      "run": "php -S localhost:8080 -t public/",
+      "test": "phpunit"
+    }
+}
